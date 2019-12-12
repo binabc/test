@@ -1,0 +1,20 @@
+{
+    "name": "binabc/test",
+    "description": "test desc",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "phpbin",
+            "email": "phpbin@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+		"psr-4": {
+			"Binabc\\Test\\": "src/"
+		}
+    }
+}
